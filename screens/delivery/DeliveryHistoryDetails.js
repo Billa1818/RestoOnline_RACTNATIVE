@@ -6,13 +6,14 @@ import {
   View,
   Text,
   ScrollView,
-  SafeAreaView,
   TouchableOpacity,
   StyleSheet,
   Linking,
 } from 'react-native';
 import { Card, Divider } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
+import AdminHeader from '../../components/AdminHeader';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function DeliveryHistoryDetails({ route, navigation }) {
   const { delivery } = route.params;
@@ -44,6 +45,10 @@ export default function DeliveryHistoryDetails({ route, navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       {/* Header */}
+      <AdminHeader
+        navigation={navigation}
+      />
+
       <View style={styles.header}>
         <TouchableOpacity
           style={styles.backButton}
