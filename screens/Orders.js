@@ -168,7 +168,7 @@ export default function Orders({ navigation }) {
 
         <View style={styles.detailButton}>
           <Text style={styles.detailButtonText}>Voir détails</Text>
-          <Ionicons name="chevron-forward" size={20} color="#FF6B35" />
+          <Ionicons name="chevron-forward" size={20} color="#5D0EC0" />
         </View>
       </TouchableOpacity>
     </Card>
@@ -270,7 +270,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   badge: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 12,
@@ -365,7 +365,7 @@ const styles = StyleSheet.create({
   totalAmount: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   detailButton: {
     flexDirection: 'row',
@@ -378,7 +378,7 @@ const styles = StyleSheet.create({
   detailButtonText: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     marginRight: 4,
   },
 });

@@ -124,7 +124,7 @@ export default function Header({
     <View style={styles.header}>
       <View style={styles.headerTop}>
         <View style={styles.logoContainer}>
-          <Ionicons name="restaurant" size={32} color="#FF6B35" />
+          <Ionicons name="restaurant" size={32} color="#5D0EC0" />
           <Text style={styles.logoText}>RestoOnline</Text>
         </View>
 
@@ -361,7 +361,7 @@ const styles = StyleSheet.create({
   },
   favoritePrice: {
     fontSize: 14,
-    color: '#FF6B35',
+    color: '#5D0EC0',
     fontWeight: 'bold',
   },
   favoriteActions: {
@@ -408,7 +408,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   closeModalBtn: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 8,

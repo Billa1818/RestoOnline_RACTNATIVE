@@ -255,7 +255,7 @@ export default function DeliveryDashboard({ navigation }) {
 
           <Card style={styles.statCard}>
             <View style={styles.statCardContent}>
-              <Ionicons name="cash-outline" size={28} color="#FF6B35" />
+              <Ionicons name="cash-outline" size={28} color="#5D0EC0" />
               <Text style={styles.statValue}>{mockDeliveryStats.earnings.toLocaleString()}</Text>
               <Text style={styles.statLabel}>Gains</Text>
             </View>
@@ -281,7 +281,7 @@ export default function DeliveryDashboard({ navigation }) {
             <Ionicons
               name="hourglass-outline"
               size={18}
-              color={activeTab === 'pending' ? '#FF6B35' : '#999'}
+              color={activeTab === 'pending' ? '#5D0EC0' : '#999'}
             />
             <Text
               style={[
@@ -300,7 +300,7 @@ export default function DeliveryDashboard({ navigation }) {
             <Ionicons
               name="checkmark-circle-outline"
               size={18}
-              color={activeTab === 'accepted' ? '#FF6B35' : '#999'}
+              color={activeTab === 'accepted' ? '#5D0EC0' : '#999'}
             />
             <Text
               style={[
@@ -319,7 +319,7 @@ export default function DeliveryDashboard({ navigation }) {
             <Ionicons
               name="checkmark-done-outline"
               size={18}
-              color={activeTab === 'completed' ? '#FF6B35' : '#999'}
+              color={activeTab === 'completed' ? '#5D0EC0' : '#999'}
             />
             <Text
               style={[
@@ -385,7 +385,7 @@ export default function DeliveryDashboard({ navigation }) {
                   {/* Adresses */}
                   <View style={styles.addressesContainer}>
                     <View style={styles.addressRow}>
-                      <Ionicons name="home-outline" size={14} color="#FF6B35" />
+                      <Ionicons name="home-outline" size={14} color="#5D0EC0" />
                       <Text style={styles.addressLabel}>Récupération:</Text>
                       <Text style={styles.addressText} numberOfLines={1}>
                         {delivery.pickupAddress}
@@ -566,7 +566,7 @@ const styles = StyleSheet.create({
     marginLeft: 6,
   },
   tabLabelActive: {
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   section: {
     marginBottom: 16,
@@ -678,7 +678,7 @@ const styles = StyleSheet.create({
   deliveryTotal: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   actionButtonsContainer: {
     flexDirection: 'row',

@@ -127,7 +127,7 @@ export default function Home({ navigation }) {
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <View style={styles.sectionTitleContainer}>
-              <Ionicons name="flame" size={24} color="#FF6B35" />
+              <Ionicons name="flame" size={24} color="#5D0EC0" />
               <Text style={styles.sectionTitle}>Plats Populaires</Text>
             </View>
             <TouchableOpacity onPress={() => navigation.navigate('search')}>
@@ -207,13 +207,13 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF5F0',
+    backgroundColor: '#F8F9FA',
   },
   content: {
     flex: 1,
   },
   banner: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     margin: 16,
     padding: 24,
     borderRadius: 16,
@@ -244,7 +244,7 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   bannerButtonText: {
-    color: '#FF6B35',
+    color: '#5D0EC0',
     fontWeight: 'bold',
     fontSize: 14,
   },
@@ -272,7 +272,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   seeAll: {
-    color: '#FF6B35',
+    color: '#5D0EC0',
     fontSize: 14,
     fontWeight: '600',
   },
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 12,
     left: 12,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
   },
   popularChipText: {
     color: '#fff',
@@ -373,10 +373,10 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   addButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     width: 40,
     height: 40,
     borderRadius: 20,
@@ -388,6 +388,6 @@ const styles = StyleSheet.create({
     margin: 16,
     right: 0,
     bottom: 16,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
   },
 });

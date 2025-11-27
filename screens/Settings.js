@@ -183,7 +183,7 @@ export default function Settings({ navigation }) {
         ) : (
           <View style={styles.noUserSection}>
             <View style={styles.noUserCard}>
-              <Ionicons name="log-in-outline" size={40} color="#FF6B35" />
+              <Ionicons name="log-in-outline" size={40} color="#5D0EC0" />
               <Text style={styles.noUserTitle}>Non connecté</Text>
               <Text style={styles.noUserSubtitle}>
                 Vous êtes actuellement en tant que client
@@ -208,12 +208,12 @@ export default function Settings({ navigation }) {
           <List.Item
             title="Notifications"
             description="Recevoir des notifications push"
-            left={(props) => <List.Icon {...props} icon="bell" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="bell" color="#5D0EC0" />}
             right={() => (
               <Switch
                 value={notifications}
                 onValueChange={handleNotificationsToggle}
-                color="#FF6B35"
+                color="#5D0EC0"
               />
             )}
           />
@@ -223,12 +223,12 @@ export default function Settings({ navigation }) {
           <List.Item
             title="Mode sombre"
             description="Activer le thème sombre"
-            left={(props) => <List.Icon {...props} icon="weather-night" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="weather-night" color="#5D0EC0" />}
             right={() => (
               <Switch
                 value={darkMode}
                 onValueChange={handleDarkModeToggle}
-                color="#FF6B35"
+                color="#5D0EC0"
               />
             )}
           />
@@ -238,7 +238,7 @@ export default function Settings({ navigation }) {
           <List.Item
             title="Langue"
             description={language === 'fr' ? 'Français' : 'English'}
-            left={(props) => <List.Icon {...props} icon="translate" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="translate" color="#5D0EC0" />}
             right={(props) => <List.Icon {...props} icon="chevron-right" />}
             onPress={() => setLanguageDialogVisible(true)}
           />
@@ -251,7 +251,7 @@ export default function Settings({ navigation }) {
           <List.Item
             title="Effacer le cache"
             description="Libérer de l'espace"
-            left={(props) => <List.Icon {...props} icon="delete" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="delete" color="#5D0EC0" />}
             right={(props) => <List.Icon {...props} icon="chevron-right" />}
             onPress={clearCache}
           />
@@ -261,7 +261,7 @@ export default function Settings({ navigation }) {
           <List.Item
             title="Version"
             description="1.0.0"
-            left={(props) => <List.Icon {...props} icon="information" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="information" color="#5D0EC0" />}
           />
         </View>
 
@@ -271,7 +271,7 @@ export default function Settings({ navigation }) {
 
           <List.Item
             title="Conditions d'utilisation"
-            left={(props) => <List.Icon {...props} icon="file-document" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="file-document" color="#5D0EC0" />}
             right={(props) => <List.Icon {...props} icon="chevron-right" />}
             onPress={() => Alert.alert('Termes', 'Page des conditions à venir')}
           />
@@ -280,7 +280,7 @@ export default function Settings({ navigation }) {
 
           <List.Item
             title="Politique de confidentialité"
-            left={(props) => <List.Icon {...props} icon="shield-check" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="shield-check" color="#5D0EC0" />}
             right={(props) => <List.Icon {...props} icon="chevron-right" />}
             onPress={() => Alert.alert('Confidentialité', 'Page de confidentialité à venir')}
           />
@@ -289,7 +289,7 @@ export default function Settings({ navigation }) {
 
           <List.Item
             title="À propos"
-            left={(props) => <List.Icon {...props} icon="information-outline" color="#FF6B35" />}
+            left={(props) => <List.Icon {...props} icon="information-outline" color="#5D0EC0" />}
             right={(props) => <List.Icon {...props} icon="chevron-right" />}
             onPress={() => Alert.alert('À propos', 'RestoOneline v1.0.0\n© 2024')}
           />
@@ -417,7 +417,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   loginButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',

@@ -119,7 +119,7 @@ export default function Cart({ navigation }) {
             {/* Restaurant Info */}
             <Card style={styles.restaurantCard}>
               <View style={styles.restaurantHeader}>
-                <Ionicons name="storefront" size={24} color="#FF6B35" />
+                <Ionicons name="storefront" size={24} color="#5D0EC0" />
                 <View style={styles.restaurantInfo}>
                   <Text style={styles.restaurantName}>
                     {mockCartItems[0].restaurant}
@@ -155,7 +155,7 @@ export default function Cart({ navigation }) {
                         style={styles.quantityButton}
                         onPress={() => updateQuantity(item.id, -1)}
                       >
-                        <Ionicons name="remove" size={16} color="#FF6B35" />
+                        <Ionicons name="remove" size={16} color="#5D0EC0" />
                       </TouchableOpacity>
 
                       <Text style={styles.quantityText}>{item.quantity}</Text>
@@ -164,7 +164,7 @@ export default function Cart({ navigation }) {
                         style={styles.quantityButton}
                         onPress={() => updateQuantity(item.id, 1)}
                       >
-                        <Ionicons name="add" size={16} color="#FF6B35" />
+                        <Ionicons name="add" size={16} color="#5D0EC0" />
                       </TouchableOpacity>
                     </View>
 
@@ -184,14 +184,14 @@ export default function Cart({ navigation }) {
               style={styles.addMoreButton}
               onPress={() => navigation.navigate('Home')}
             >
-              <Ionicons name="add-circle-outline" size={20} color="#FF6B35" />
+              <Ionicons name="add-circle-outline" size={20} color="#5D0EC0" />
               <Text style={styles.addMoreText}>Ajouter d'autres articles</Text>
             </TouchableOpacity>
 
             {/* Delivery Address */}
             <Card style={styles.addressCard}>
               <View style={styles.addressHeader}>
-                <Ionicons name="location" size={20} color="#FF6B35" />
+                <Ionicons name="location" size={20} color="#5D0EC0" />
                 <Text style={styles.sectionTitle}>Adresse de livraison</Text>
               </View>
               <Text style={styles.addressText}>{deliveryAddress}</Text>
@@ -358,7 +358,7 @@ export default function Cart({ navigation }) {
               />
 
               <View style={styles.infoBox}>
-                <Ionicons name="information-circle-outline" size={20} color="#FF6B35" />
+                <Ionicons name="information-circle-outline" size={20} color="#5D0EC0" />
                 <Text style={styles.infoText}>
                   Vous recevrez une notification pour valider le paiement sur votre téléphone
                 </Text>
@@ -408,7 +408,7 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   },
   cartBadge: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     width: 28,
     height: 28,
     borderRadius: 14,
@@ -443,7 +443,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   browseButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     paddingHorizontal: 32,
     paddingVertical: 14,
     borderRadius: 12,
@@ -577,7 +577,7 @@ const styles = StyleSheet.create({
   addMoreText: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     marginLeft: 8,
   },
   addressCard: {
@@ -606,7 +606,7 @@ const styles = StyleSheet.create({
   },
   changeAddressText: {
     fontSize: 14,
-    color: '#FF6B35',
+    color: '#5D0EC0',
     fontWeight: 'bold',
   },
   summaryCard: {
@@ -650,7 +650,7 @@ const styles = StyleSheet.create({
   totalValue: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   checkoutContainer: {
     position: 'absolute',
@@ -666,7 +666,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
   },
   checkoutButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     borderRadius: 12,
     padding: 16,
   },
@@ -762,7 +762,7 @@ const styles = StyleSheet.create({
   },
   saveButton: {
     flex: 1,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     borderRadius: 12,
     padding: 16,
     alignItems: 'center',
@@ -774,7 +774,7 @@ const styles = StyleSheet.create({
   },
   confirmButton: {
     flex: 1,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     borderRadius: 12,
     padding: 16,
     alignItems: 'center',
@@ -813,7 +813,7 @@ const styles = StyleSheet.create({
   },
   networkButtonActive: {
     backgroundColor: '#FFE5D9',
-    borderColor: '#FF6B35',
+    borderColor: '#5D0EC0',
   },
   networkButtonText: {
     fontSize: 14,
@@ -821,7 +821,7 @@ const styles = StyleSheet.create({
     color: '#868E96',
   },
   networkButtonTextActive: {
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   infoBox: {
     flexDirection: 'row',

@@ -76,7 +76,7 @@ export default function Notification() {
       case 'info':
         return '#2196F3';
       case 'promo':
-        return '#FF6B35';
+        return '#5D0EC0';
       case 'delivery':
         return '#FF9800';
       case 'feedback':
@@ -206,7 +206,7 @@ export default function Notification() {
                     onPress={handleClearAll}
                     style={styles.clearButton}
                   >
-                    <Ionicons name="trash-outline" size={20} color="#FF6B35" />
+                    <Ionicons name="trash-outline" size={20} color="#5D0EC0" />
                   </TouchableOpacity>
                 )}
                 <TouchableOpacity
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 4,
     right: 4,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     minWidth: 18,
     height: 18,
     borderRadius: 9,
@@ -328,7 +328,7 @@ const styles = StyleSheet.create({
   notificationItemUnread: {
     backgroundColor: '#FFF5F0',
     borderLeftWidth: 4,
-    borderLeftColor: '#FF6B35',
+    borderLeftColor: '#5D0EC0',
   },
   notificationIcon: {
     width: 48,
@@ -369,7 +369,7 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
   },
   deleteButton: {
     padding: 4,

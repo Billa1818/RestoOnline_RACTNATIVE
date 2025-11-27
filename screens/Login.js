@@ -71,7 +71,7 @@ export default function Login({ navigation }) {
       <ScrollView showsVerticalScrollIndicator={false} style={styles.content}>
         {/* Header */}
         <View style={styles.header}>
-          <Ionicons name="restaurant" size={50} color="#FF6B35" />
+          <Ionicons name="restaurant" size={50} color="#5D0EC0" />
           <Text style={styles.title}>RestoOnline</Text>
           <Text style={styles.subtitle}>Espace Professionnel</Text>
         </View>
@@ -102,7 +102,7 @@ export default function Login({ navigation }) {
               <Ionicons
                 name={role.icon}
                 size={32}
-                color={selectedRole === role.id ? '#FF6B35' : '#666'}
+                color={selectedRole === role.id ? '#5D0EC0' : '#666'}
               />
               <Text
                 style={[
@@ -123,7 +123,7 @@ export default function Login({ navigation }) {
 
           {/* Email */}
           <View style={styles.inputContainer}>
-            <Ionicons name="mail-outline" size={20} color="#FF6B35" />
+            <Ionicons name="mail-outline" size={20} color="#5D0EC0" />
             <TextInput
               style={styles.input}
               placeholder="Email"
@@ -137,7 +137,7 @@ export default function Login({ navigation }) {
 
           {/* Password */}
           <View style={styles.inputContainer}>
-            <Ionicons name="lock-closed-outline" size={20} color="#FF6B35" />
+            <Ionicons name="lock-closed-outline" size={20} color="#5D0EC0" />
             <TextInput
               style={styles.input}
               placeholder="Mot de passe"
@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
     borderColor: '#E0E0E0',
   },
   roleCardSelected: {
-    borderColor: '#FF6B35',
+    borderColor: '#5D0EC0',
     backgroundColor: '#FFF5F0',
   },
   roleName: {
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   roleNameSelected: {
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   roleDescription: {
     fontSize: 10,
@@ -312,7 +312,7 @@ const styles = StyleSheet.create({
     fontFamily: 'monospace',
   },
   loginButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
   clientLink: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     marginTop: 8,
   },
 });

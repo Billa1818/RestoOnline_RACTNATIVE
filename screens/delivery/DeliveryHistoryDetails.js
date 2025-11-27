@@ -167,7 +167,7 @@ export default function DeliveryHistoryDetails({ route, navigation }) {
             onPress={() => openMaps(delivery.deliveryAddress)}
           >
             <View style={styles.addressIconContainer}>
-              <Ionicons name="location" size={24} color="#FF6B35" />
+              <Ionicons name="location" size={24} color="#5D0EC0" />
             </View>
             <View style={styles.addressContent}>
               <Text style={styles.addressLabel}>Livraison</Text>
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
   earningsTotalValue: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   ratingSection: {
     paddingBottom: 4,
@@ -437,7 +437,7 @@ const styles = StyleSheet.create({
   itemQuantity: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     width: 32,
   },
   itemName: {
@@ -464,7 +464,7 @@ const styles = StyleSheet.create({
   totalValue: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   infoGrid: {
     gap: 16,

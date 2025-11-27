@@ -102,7 +102,7 @@ export default function OrderDetails({ route, navigation }) {
               description="En route"
             >
               <View style={styles.markerContainer}>
-                <Ionicons name="bicycle" size={24} color="#FF6B35" />
+                <Ionicons name="bicycle" size={24} color="#5D0EC0" />
               </View>
             </Marker>
             <Marker
@@ -216,7 +216,7 @@ export default function OrderDetails({ route, navigation }) {
         <Card style={styles.card}>
           <Text style={styles.cardTitle}>Adresse de livraison</Text>
           <View style={styles.addressContainer}>
-            <Ionicons name="location" size={24} color="#FF6B35" />
+            <Ionicons name="location" size={24} color="#5D0EC0" />
             <Text style={styles.addressText}>{order.address}</Text>
           </View>
         </Card>
@@ -234,7 +234,7 @@ export default function OrderDetails({ route, navigation }) {
               onPress={() => openRatingModal('meal')}
             >
               <View style={styles.ratingButtonContent}>
-                <Ionicons name="restaurant" size={24} color="#FF6B35" />
+                <Ionicons name="restaurant" size={24} color="#5D0EC0" />
                 <View style={styles.ratingButtonText}>
                   <Text style={styles.ratingButtonTitle}>Noter le repas</Text>
                   <Text style={styles.ratingButtonSubtitle}>
@@ -250,7 +250,7 @@ export default function OrderDetails({ route, navigation }) {
               onPress={() => openRatingModal('delivery')}
             >
               <View style={styles.ratingButtonContent}>
-                <Ionicons name="bicycle" size={24} color="#FF6B35" />
+                <Ionicons name="bicycle" size={24} color="#5D0EC0" />
                 <View style={styles.ratingButtonText}>
                   <Text style={styles.ratingButtonTitle}>Noter le livreur</Text>
                   <Text style={styles.ratingButtonSubtitle}>
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   itemQuantity: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     marginRight: 8,
     width: 30,
   },
@@ -522,7 +522,7 @@ const styles = StyleSheet.create({
   totalAmount: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   addressContainer: {
     flexDirection: 'row',
@@ -575,11 +575,11 @@ const styles = StyleSheet.create({
   actionButton: {
     marginBottom: 12,
     borderRadius: 8,
-    borderColor: '#FF6B35',
+    borderColor: '#5D0EC0',
   },
   actionButtonLabel: {
     fontSize: 14,
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   cancelButton: {
     backgroundColor: '#F44336',
@@ -635,7 +635,7 @@ const styles = StyleSheet.create({
     borderColor: '#E9ECEF',
   },
   submitButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
@@ -663,6 +663,6 @@ const styles = StyleSheet.create({
     padding: 4,
     borderRadius: 20,
     borderWidth: 2,
-    borderColor: '#FF6B35',
+    borderColor: '#5D0EC0',
   },
 });

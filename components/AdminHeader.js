@@ -9,13 +9,12 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import Notification from './Notification';
-
 export default function AdminHeader({ title, subtitle, navigation, rightButtons }) {
   return (
     <View style={styles.header}>
       <View style={styles.headerTop}>
         <View style={styles.logoContainer}>
-          <Ionicons name="restaurant" size={28} color="#FF6B35"  />
+          <Ionicons name="restaurant" size={28} color="#5D0EC0"  />
           <Text style={styles.logoText}>RestoOnline</Text>
         </View>
 

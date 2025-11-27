@@ -163,7 +163,7 @@ export default function DeliveryDetails({ route, navigation }) {
               coordinate={delivery.pickupCoords}
               title="Restaurant"
               description={delivery.pickupAddress}
-              pinColor="#FF6B35"
+              pinColor="#5D0EC0"
             >
               <View style={styles.pickupMarker}>
                 <Ionicons name="restaurant" size={20} color="#fff" />
@@ -206,7 +206,7 @@ export default function DeliveryDetails({ route, navigation }) {
         <Card style={styles.card}>
           <View style={styles.cardContent}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="person-circle-outline" size={24} color="#FF6B35" />
+              <Ionicons name="person-circle-outline" size={24} color="#5D0EC0" />
               <Text style={styles.sectionTitle}>Client</Text>
             </View>
             <View style={styles.infoRow}>
@@ -243,14 +243,14 @@ export default function DeliveryDetails({ route, navigation }) {
         <Card style={styles.card}>
           <View style={styles.cardContent}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="map-outline" size={24} color="#FF6B35" />
+              <Ionicons name="map-outline" size={24} color="#5D0EC0" />
               <Text style={styles.sectionTitle}>Itinéraire</Text>
             </View>
             
             <View style={styles.addressBlock}>
               <View style={styles.addressIconContainer}>
                 <View style={styles.addressIcon}>
-                  <Ionicons name="home" size={18} color="#FF6B35" />
+                  <Ionicons name="home" size={18} color="#5D0EC0" />
                 </View>
               </View>
               <View style={styles.addressInfo}>
@@ -284,7 +284,7 @@ export default function DeliveryDetails({ route, navigation }) {
         <Card style={styles.card}>
           <View style={styles.cardContent}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="receipt-outline" size={24} color="#FF6B35" />
+              <Ionicons name="receipt-outline" size={24} color="#5D0EC0" />
               <Text style={styles.sectionTitle}>Commande</Text>
             </View>
             
@@ -308,7 +308,7 @@ export default function DeliveryDetails({ route, navigation }) {
         <Card style={styles.card}>
           <View style={styles.cardContent}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="information-circle-outline" size={24} color="#FF6B35" />
+              <Ionicons name="information-circle-outline" size={24} color="#5D0EC0" />
               <Text style={styles.sectionTitle}>Informations</Text>
             </View>
             
@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F8F9FA',
   },
   header: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 16,
@@ -399,7 +399,7 @@ const styles = StyleSheet.create({
     borderColor: '#fff',
   },
   pickupMarker: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     padding: 6,
     borderRadius: 20,
     borderWidth: 2,
@@ -543,7 +543,7 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     marginRight: 12,
   },
   itemText: {
@@ -566,7 +566,7 @@ const styles = StyleSheet.create({
   totalValue: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   bottomActions: {
     flexDirection: 'row',

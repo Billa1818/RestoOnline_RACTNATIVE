@@ -218,7 +218,7 @@ export default function Search({ navigation }) {
                     </View>
 
                     <View style={styles.dishTime}>
-                      <Ionicons name="time-outline" size={12} color="#FF6B35" />
+                      <Ionicons name="time-outline" size={12} color="#5D0EC0" />
                       <Text style={styles.timeText}>{dish.time}</Text>
                     </View>
 
@@ -249,7 +249,7 @@ export default function Search({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF5F0',
+    backgroundColor: '#F8F9FA',
   },
   searchHeader: {
     backgroundColor: '#fff',
@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   categoryChipSelected: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
   },
   categoryChipText: {
     color: '#666',
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   dishTime: {
     flexDirection: 'row',
@@ -392,12 +392,12 @@ const styles = StyleSheet.create({
   },
   timeText: {
     fontSize: 12,
-    color: '#FF6B35',
+    color: '#5D0EC0',
     fontWeight: '600',
     marginLeft: 4,
   },
   addToCartButton: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',

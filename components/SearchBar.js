@@ -15,7 +15,7 @@ export default function SearchBarComponent({ searchQuery, onChangeSearch }) {
         onChangeText={onChangeSearch}
         value={searchQuery}
         style={styles.searchBar}
-        iconColor="#FF6B35"
+        iconColor="#5D0EC0"
       />
     </View>
   );

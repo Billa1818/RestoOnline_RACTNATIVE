@@ -218,7 +218,7 @@ export default function DeliveryHistory({ navigation }) {
             </View>
             <View style={styles.addressConnector} />
             <View style={styles.addressRow}>
-              <Ionicons name="location" size={16} color="#FF6B35" />
+              <Ionicons name="location" size={16} color="#5D0EC0" />
               <Text style={styles.addressText} numberOfLines={1}>
                 {delivery.deliveryAddress}
               </Text>
@@ -250,7 +250,7 @@ export default function DeliveryHistory({ navigation }) {
 
         <View style={styles.cardFooter}>
           <Text style={styles.detailButtonText}>Voir détails</Text>
-          <Ionicons name="chevron-forward" size={20} color="#FF6B35" />
+          <Ionicons name="chevron-forward" size={20} color="#5D0EC0" />
         </View>
       </TouchableOpacity>
     </Card>
@@ -379,7 +379,7 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
   },
   ratingValue: {
     flexDirection: 'row',
@@ -406,7 +406,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   filterButtonActive: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: '#5D0EC0',
   },
   filterText: {
     fontSize: 14,
@@ -542,7 +542,7 @@ const styles = StyleSheet.create({
   detailButtonText: {
     fontSize: 14,
     fontWeight: 'bold',
-    color: '#FF6B35',
+    color: '#5D0EC0',
     marginRight: 4,
   },
   emptyState: {

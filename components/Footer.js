@@ -44,12 +44,12 @@ export default function Footer({ state, descriptors, navigation }) {
             <Ionicons
               name={isFocused ? route.icon : `${route.icon}-outline`}
               size={24}
-              color={isFocused ? '#FF6B35' : '#868E96'}
+              color={isFocused ? '#5D0EC0' : '#868E96'}
             />
             <Text
               style={[
                 styles.tabLabel,
-                { color: isFocused ? '#FF6B35' : '#868E96' },
+                { color: isFocused ? '#5D0EC0' : '#868E96' },
               ]}
             >
               {route.label}
